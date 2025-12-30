@@ -2,4 +2,14 @@
 
 body {
   @apply bg-[#fdf9f5] text-gray-800 font-sans;
+  font-family: 'Magioline'; 
+}
+
+@font-face {
+  font-family: 'Magioline'; 
+  /* Make sure the file name below matches your file exactly! */
+  src: url('/public/fonts/MagiolineRegular-mLEa5.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
